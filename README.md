@@ -27,5 +27,4 @@ Como Executar o Projeto:
 </ul>
  <br>
 Contribuição: <br>
-Sinta-se à vontade para contribuir com melhorias ou novas receitas! Abra um pull request com suas sugestões. <br>
-Este projeto é ideal para iniciantes que desejam praticar suas habilidades em HTML e CSS.
+Sinta-se à vontade para contribuir com melhorias ou novas receitas! Abra um pull request com suas sugestões. 
