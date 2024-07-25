@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    background-color: #f0f0f0;
+}
+
+.header {
+    background-size: cover;
+    padding: 35px;
+    background-color: #F38E34;
+    padding-top: 8px;
+    text-align: center;
+    height: 65px;
+    position: sticky;
+    top: 0px;
+}
+
+.nome {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    width: 580px;
+    height: 430px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.imagem {
+    background-image: url(../img/iStock-491517422-730x365.jpg);
+    background-repeat: no-repeat;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 550px;
+    height: 350px;
+    border-radius: 20px;
+}
+
+.titulo {
+    text-align: center;
+    font-family: 'Jost';
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #F2780C;
+}
+
+.ingredientes {
+    text-align: center;
+    font-family: 'Roboto';
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 540px;
+    height: 280px;
+    background-color: rgb(255, 255, 255);
+    padding-inline-start: 15px;
+    border-radius: 10px;
+}
+
+
+.modo-de-preparo {
+    text-align: justify;
+    font-family: 'Roboto';
+    padding: 15px;
+    margin-bottom: 50px;
+    font-weight: 300;
+    line-height: 25px;
+    list-style-position: inside;
+}
+
+.li {
+    list-style-position: inside;
+    font-weight: 300;
+    line-height: 25px
+}
+
+.receita {
+    text-align: justify;
+    font-family: 'Roboto';
+    text-align: left;
+    text-align: justify;
+    width: 550px;
+    height: 390px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.botoes {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+.botao-home {
+    text-align: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    background-color: #F2780C;
+    color: white;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+}
+
+.botao-receita-2 {
+    text-align: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    background-color: #F2780C;
+    color: white;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+}
+
+.botao-home,
+.botao-receita-2 {
+    margin-bottom: 50px;
+}
+
+.botao-receita-2:hover,
+.botao-home:hover {
+    background-color: #f0ad4e;
+    cursor: pointer;
+}

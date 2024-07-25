@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    background-color: #f0f0f0;
+}
+
+.header {
+    background-size: cover;
+    padding: 35px;
+    background-color: #F38E34;
+    padding-top: 8px;
+    text-align: center;
+    height: 65px;
+    position: sticky;
+    top: 0px;
+}
+
+.titulo {
+    text-align: center;
+    font-family: 'Jost';
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #F2780C;
+}
+
+.primeiro-paragrafo {
+    font-family: 'Roboto';
+    font-size: 30;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.fundo {
+    background-color: rgb(240, 236, 109);
+    padding: 60px;
+}
+
+.fundo-branco {
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    text-align: center;
+    width: 550px;
+    height: 570px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.sobre {
+    padding: 15px;
+    font-family: 'Roboto';
+    margin: auto;
+    text-justify: inter-ideograph;
+    text-align: justify;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+.confira {
+    padding: 15px;
+    font-family: 'Roboto';
+    text-align: center;
+}
+
+.botoes {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.botao-receita-1 {
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    background-color: #F2780C;
+    color: white;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+}
+
+.botao-receita-2 {
+    text-align: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    background-color: #F2780C;
+    color: white;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+}
+
+.botao-receita-2:hover,
+.botao-receita-1:hover {
+    background-color: #f0ad4e;
+    cursor: pointer;
+}
